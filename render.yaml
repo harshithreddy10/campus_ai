@@ -2,7 +2,7 @@ services:
   - type: web
     name: campusai
     runtime: docker
-    repo: https://code.swecha.org/kommera/smart-attendance-management-system
+    repo: https://github.com/harshithreddy10/campus_ai
     plan: free
     region: oregon
     dockerfilePath: ./Dockerfile
