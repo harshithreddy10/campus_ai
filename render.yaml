@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: campusai
+    runtime: docker
+    repo: https://code.swecha.org/kommera/smart-attendance-management-system
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: OLLAMA_BASE_URL
+        value: http://localhost:11434
+      - key: OLLAMA_MODEL
+        value: llama3:latest

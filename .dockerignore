@@ -1,0 +1,14 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.git/
+.gitignore
+*.md
+.DS_Store
+frontend/
+node_modules/
+.cache/
+.ruff_cache/
+.mypy_cache/
